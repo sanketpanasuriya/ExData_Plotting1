@@ -8,7 +8,7 @@ dataset <- read.table(unz(file,"household_power_consumption.txt"), header = TRUE
 
 head(dataset)
 
-subSetDate <- subset(dataset, Date <="1/2/2007" & Date >= 2/2/2007)
+subSetDate <- dataset[dataset$Date %in% c("1/2/2007", "2/2/2007"),]
 
 str(subSetDate)
 
