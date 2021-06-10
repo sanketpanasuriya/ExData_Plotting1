@@ -1,3 +1,5 @@
+Click on the @icn-camera icon to take a screen shot.
+
 ## Introduction
 
 This assignment uses data from
